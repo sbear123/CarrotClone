@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4300AC4726A7F49600B67B2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4300AC4626A7F49600B67B2A /* MainViewController.swift */; };
 		43DC6E5126985E4B001018B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DC6E5026985E4B001018B3 /* AppDelegate.swift */; };
 		43DC6E5326985E4B001018B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DC6E5226985E4B001018B3 /* SceneDelegate.swift */; };
 		43DC6E5A26985E4B001018B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DC6E5926985E4B001018B3 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		3FB11C412115EE82FA53D37F /* Pods-CarrotClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotClone.debug.xcconfig"; path = "Target Support Files/Pods-CarrotClone/Pods-CarrotClone.debug.xcconfig"; sourceTree = "<group>"; };
+		4300AC4626A7F49600B67B2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		43DC6E4D26985E4B001018B3 /* CarrotClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DC6E5026985E4B001018B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43DC6E5226985E4B001018B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,8 +128,8 @@
 			children = (
 				43DC6E8C269869F9001018B3 /* GoogleService-Info.plist */,
 				43DC6E5E26985E4B001018B3 /* Info.plist */,
-				43DC6E8026985F0F001018B3 /* Resource */,
-				43DC6E8126985F28001018B3 /* Source */,
+				43DC6E8026985F0F001018B3 /* Source */,
+				43DC6E8126985F28001018B3 /* Resource */,
 			);
 			path = CarrotClone;
 			sourceTree = "<group>";
@@ -150,7 +152,7 @@
 			path = CarrotCloneUITests;
 			sourceTree = "<group>";
 		};
-		43DC6E8026985F0F001018B3 /* Resource */ = {
+		43DC6E8026985F0F001018B3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				43DC6E8226985FA1001018B3 /* Components */,
@@ -162,16 +164,16 @@
 				43DC6E892698604F001018B3 /* Service */,
 				43DC6E8A26986057001018B3 /* Util */,
 			);
-			path = Resource;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		43DC6E8126985F28001018B3 /* Source */ = {
+		43DC6E8126985F28001018B3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 				43DC6E5B26985E4B001018B3 /* LaunchScreen.storyboard */,
 				43DC6E5926985E4B001018B3 /* Assets.xcassets */,
 			);
-			path = Source;
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		43DC6E8226985FA1001018B3 /* Components */ = {
@@ -222,6 +224,7 @@
 		43DC6E882698600E001018B3 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				4300AC4626A7F49600B67B2A /* MainViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4300AC4726A7F49600B67B2A /* MainViewController.swift in Sources */,
 				43DC6E5126985E4B001018B3 /* AppDelegate.swift in Sources */,
 				43DC6E5326985E4B001018B3 /* SceneDelegate.swift in Sources */,
 			);
