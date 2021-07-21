@@ -1,0 +1,6 @@
+framework module Pods_CarrotCloneTests {
+  umbrella header "Pods-CarrotCloneTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
