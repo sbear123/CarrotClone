@@ -6,15 +6,13 @@ target 'CarrotClone' do
   use_frameworks!
 
   # Pods for CarrotClone
-  pod 'Texture'
-  pod 'RxSwift'
-  pod 'Alamofire'
-  pod 'ObjectMapper'
   pod 'Nimble'
   pod 'Then'
   pod 'SwiftMessages'
   pod 'Firebase/Analytics'
-  
+  pod 'RxSwift'
+  pod 'RxCocoa'
+
   target 'CarrotCloneTests' do
     inherit! :search_paths
     # Pods for testing

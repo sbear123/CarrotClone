@@ -7,251 +7,265 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4300AC4726A7F49600B67B2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4300AC4626A7F49600B67B2A /* MainViewController.swift */; };
-		43DC6E5126985E4B001018B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DC6E5026985E4B001018B3 /* AppDelegate.swift */; };
-		43DC6E5326985E4B001018B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DC6E5226985E4B001018B3 /* SceneDelegate.swift */; };
-		43DC6E5A26985E4B001018B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43DC6E5926985E4B001018B3 /* Assets.xcassets */; };
-		43DC6E5D26985E4B001018B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43DC6E5B26985E4B001018B3 /* LaunchScreen.storyboard */; };
-		43DC6E6826985E4B001018B3 /* CarrotCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DC6E6726985E4B001018B3 /* CarrotCloneTests.swift */; };
-		43DC6E7326985E4B001018B3 /* CarrotCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DC6E7226985E4B001018B3 /* CarrotCloneUITests.swift */; };
-		43DC6E8D269869F9001018B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43DC6E8C269869F9001018B3 /* GoogleService-Info.plist */; };
-		4DC2BDEF6393FF26AF669190 /* Pods_CarrotCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB5DE013543FBF89C3CC49F /* Pods_CarrotCloneTests.framework */; };
-		6A8CBC21ABD0B17CF96ED995 /* Pods_CarrotClone_CarrotCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 977EE24BE393B70E196DB8EB /* Pods_CarrotClone_CarrotCloneUITests.framework */; };
-		D9DA1790F4FC17A5BA99A2B8 /* Pods_CarrotClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CF9A5AC09C8179515ABE32 /* Pods_CarrotClone.framework */; };
+		26B4ADC084CF7FC3B8D3547C /* Pods_CarrotClone_CarrotCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13353F49A9F88C913F15621C /* Pods_CarrotClone_CarrotCloneUITests.framework */; };
+		43A9F42326AA682700A1F2CB /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9F42226AA682700A1F2CB /* DetailCoordinator.swift */; };
+		43B3A4B226AA634000F516F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3A4B126AA634000F516F2 /* AppDelegate.swift */; };
+		43B3A4B426AA634000F516F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3A4B326AA634000F516F2 /* SceneDelegate.swift */; };
+		43B3A4B926AA634000F516F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B3A4B726AA634000F516F2 /* Main.storyboard */; };
+		43B3A4BB26AA634000F516F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B3A4BA26AA634000F516F2 /* Assets.xcassets */; };
+		43B3A4BE26AA634000F516F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B3A4BC26AA634000F516F2 /* LaunchScreen.storyboard */; };
+		43B3A4C926AA634000F516F2 /* CarrotCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3A4C826AA634000F516F2 /* CarrotCloneTests.swift */; };
+		43B3A4D426AA634000F516F2 /* CarrotCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3A4D326AA634000F516F2 /* CarrotCloneUITests.swift */; };
+		43B3A4EC26AA642300F516F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B3A4EB26AA642300F516F2 /* GoogleService-Info.plist */; };
+		43B3A4ED26AA642300F516F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B3A4EB26AA642300F516F2 /* GoogleService-Info.plist */; };
+		43B3A4EE26AA642300F516F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B3A4EB26AA642300F516F2 /* GoogleService-Info.plist */; };
+		43C30AFE26AA65CE00D91739 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C30AFD26AA65CE00D91739 /* Detail.storyboard */; };
+		43C30B0326AA667700D91739 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C30B0226AA667700D91739 /* DetailViewController.swift */; };
+		43C30B0526AA668000D91739 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C30B0426AA668000D91739 /* MainViewController.swift */; };
+		7602968B4697BB513140F19D /* Pods_CarrotClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45914A2F683ACE63FDE9F79A /* Pods_CarrotClone.framework */; };
+		B432887B7D4198204CF23288 /* Pods_CarrotCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EFF5A8711119884E941611 /* Pods_CarrotCloneTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		43DC6E6426985E4B001018B3 /* PBXContainerItemProxy */ = {
+		43B3A4C526AA634000F516F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 43DC6E4526985E4A001018B3 /* Project object */;
+			containerPortal = 43B3A4A626AA634000F516F2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 43DC6E4C26985E4B001018B3;
+			remoteGlobalIDString = 43B3A4AD26AA634000F516F2;
 			remoteInfo = CarrotClone;
 		};
-		43DC6E6F26985E4B001018B3 /* PBXContainerItemProxy */ = {
+		43B3A4D026AA634000F516F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 43DC6E4526985E4A001018B3 /* Project object */;
+			containerPortal = 43B3A4A626AA634000F516F2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 43DC6E4C26985E4B001018B3;
+			remoteGlobalIDString = 43B3A4AD26AA634000F516F2;
 			remoteInfo = CarrotClone;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3FB11C412115EE82FA53D37F /* Pods-CarrotClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotClone.debug.xcconfig"; path = "Target Support Files/Pods-CarrotClone/Pods-CarrotClone.debug.xcconfig"; sourceTree = "<group>"; };
-		4300AC4626A7F49600B67B2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		43DC6E4D26985E4B001018B3 /* CarrotClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		43DC6E5026985E4B001018B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43DC6E5226985E4B001018B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		43DC6E5926985E4B001018B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		43DC6E5C26985E4B001018B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		43DC6E5E26985E4B001018B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43DC6E6326985E4B001018B3 /* CarrotCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43DC6E6726985E4B001018B3 /* CarrotCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotCloneTests.swift; sourceTree = "<group>"; };
-		43DC6E6926985E4B001018B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43DC6E6E26985E4B001018B3 /* CarrotCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43DC6E7226985E4B001018B3 /* CarrotCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotCloneUITests.swift; sourceTree = "<group>"; };
-		43DC6E7426985E4B001018B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43DC6E8C269869F9001018B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		45CF9A5AC09C8179515ABE32 /* Pods_CarrotClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		707F49EE6422C36848BE2F07 /* Pods-CarrotClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotClone.release.xcconfig"; path = "Target Support Files/Pods-CarrotClone/Pods-CarrotClone.release.xcconfig"; sourceTree = "<group>"; };
-		977EE24BE393B70E196DB8EB /* Pods_CarrotClone_CarrotCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotClone_CarrotCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EB5DE013543FBF89C3CC49F /* Pods_CarrotCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC32DDD04CA43B0A26131038 /* Pods-CarrotCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-CarrotCloneTests/Pods-CarrotCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C0FED1DED0F00BEDF63B13CC /* Pods-CarrotClone-CarrotCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotClone-CarrotCloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarrotClone-CarrotCloneUITests/Pods-CarrotClone-CarrotCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E2D83435E996B0EDC532DAE4 /* Pods-CarrotCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotCloneTests.release.xcconfig"; path = "Target Support Files/Pods-CarrotCloneTests/Pods-CarrotCloneTests.release.xcconfig"; sourceTree = "<group>"; };
-		E63067F9545FD141D99ACB2B /* Pods-CarrotClone-CarrotCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotClone-CarrotCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-CarrotClone-CarrotCloneUITests/Pods-CarrotClone-CarrotCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		07EFF5A8711119884E941611 /* Pods_CarrotCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7A772BBCA7AF9CB6D222C7 /* Pods-CarrotCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotCloneTests.release.xcconfig"; path = "Target Support Files/Pods-CarrotCloneTests/Pods-CarrotCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		13353F49A9F88C913F15621C /* Pods_CarrotClone_CarrotCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotClone_CarrotCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF06B9F26FD233D3F7AA6EA /* Pods-CarrotClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotClone.debug.xcconfig"; path = "Target Support Files/Pods-CarrotClone/Pods-CarrotClone.debug.xcconfig"; sourceTree = "<group>"; };
+		43A9F42226AA682700A1F2CB /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
+		43B3A4AE26AA634000F516F2 /* CarrotClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B3A4B126AA634000F516F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43B3A4B326AA634000F516F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		43B3A4B826AA634000F516F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43B3A4BA26AA634000F516F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43B3A4BD26AA634000F516F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43B3A4BF26AA634000F516F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B3A4C426AA634000F516F2 /* CarrotCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B3A4C826AA634000F516F2 /* CarrotCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotCloneTests.swift; sourceTree = "<group>"; };
+		43B3A4CA26AA634000F516F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B3A4CF26AA634000F516F2 /* CarrotCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B3A4D326AA634000F516F2 /* CarrotCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotCloneUITests.swift; sourceTree = "<group>"; };
+		43B3A4D526AA634000F516F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B3A4EB26AA642300F516F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43C30AFD26AA65CE00D91739 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		43C30B0226AA667700D91739 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		43C30B0426AA668000D91739 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		45914A2F683ACE63FDE9F79A /* Pods_CarrotClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarrotClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		947C8628019A847486785475 /* Pods-CarrotClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotClone.release.xcconfig"; path = "Target Support Files/Pods-CarrotClone/Pods-CarrotClone.release.xcconfig"; sourceTree = "<group>"; };
+		CD295761A61E1B4390C00107 /* Pods-CarrotCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-CarrotCloneTests/Pods-CarrotCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAACF7B449A1AD18A1DA6C05 /* Pods-CarrotClone-CarrotCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotClone-CarrotCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-CarrotClone-CarrotCloneUITests/Pods-CarrotClone-CarrotCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC65C24785F6ED0814948C04 /* Pods-CarrotClone-CarrotCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarrotClone-CarrotCloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-CarrotClone-CarrotCloneUITests/Pods-CarrotClone-CarrotCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		43DC6E4A26985E4B001018B3 /* Frameworks */ = {
+		43B3A4AB26AA634000F516F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DA1790F4FC17A5BA99A2B8 /* Pods_CarrotClone.framework in Frameworks */,
+				7602968B4697BB513140F19D /* Pods_CarrotClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43DC6E6026985E4B001018B3 /* Frameworks */ = {
+		43B3A4C126AA634000F516F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC2BDEF6393FF26AF669190 /* Pods_CarrotCloneTests.framework in Frameworks */,
+				B432887B7D4198204CF23288 /* Pods_CarrotCloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43DC6E6B26985E4B001018B3 /* Frameworks */ = {
+		43B3A4CC26AA634000F516F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A8CBC21ABD0B17CF96ED995 /* Pods_CarrotClone_CarrotCloneUITests.framework in Frameworks */,
+				26B4ADC084CF7FC3B8D3547C /* Pods_CarrotClone_CarrotCloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AC627357FB2F12F5C089A74 /* Frameworks */ = {
+		43B3A4A526AA634000F516F2 = {
 			isa = PBXGroup;
 			children = (
-				45CF9A5AC09C8179515ABE32 /* Pods_CarrotClone.framework */,
-				977EE24BE393B70E196DB8EB /* Pods_CarrotClone_CarrotCloneUITests.framework */,
-				9EB5DE013543FBF89C3CC49F /* Pods_CarrotCloneTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		43DC6E4426985E4A001018B3 = {
-			isa = PBXGroup;
-			children = (
-				43DC6E4F26985E4B001018B3 /* CarrotClone */,
-				43DC6E6626985E4B001018B3 /* CarrotCloneTests */,
-				43DC6E7126985E4B001018B3 /* CarrotCloneUITests */,
-				43DC6E4E26985E4B001018B3 /* Products */,
-				CBA482B8BC3B5F685EA4AF42 /* Pods */,
-				2AC627357FB2F12F5C089A74 /* Frameworks */,
+				43B3A4B026AA634000F516F2 /* CarrotClone */,
+				43B3A4C726AA634000F516F2 /* CarrotCloneTests */,
+				43B3A4D226AA634000F516F2 /* CarrotCloneUITests */,
+				43B3A4AF26AA634000F516F2 /* Products */,
+				D773356963CAC856A0F0B54D /* Pods */,
+				AC04FE98C481133219EAFA69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		43DC6E4E26985E4B001018B3 /* Products */ = {
+		43B3A4AF26AA634000F516F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43DC6E4D26985E4B001018B3 /* CarrotClone.app */,
-				43DC6E6326985E4B001018B3 /* CarrotCloneTests.xctest */,
-				43DC6E6E26985E4B001018B3 /* CarrotCloneUITests.xctest */,
+				43B3A4AE26AA634000F516F2 /* CarrotClone.app */,
+				43B3A4C426AA634000F516F2 /* CarrotCloneTests.xctest */,
+				43B3A4CF26AA634000F516F2 /* CarrotCloneUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43DC6E4F26985E4B001018B3 /* CarrotClone */ = {
+		43B3A4B026AA634000F516F2 /* CarrotClone */ = {
 			isa = PBXGroup;
 			children = (
-				43DC6E8C269869F9001018B3 /* GoogleService-Info.plist */,
-				43DC6E5E26985E4B001018B3 /* Info.plist */,
-				43DC6E8026985F0F001018B3 /* Source */,
-				43DC6E8126985F28001018B3 /* Resource */,
+				43B3A4EB26AA642300F516F2 /* GoogleService-Info.plist */,
+				43B3A4BF26AA634000F516F2 /* Info.plist */,
+				43B3A4E226AA637100F516F2 /* Resource */,
+				43B3A4E126AA635B00F516F2 /* Source */,
 			);
 			path = CarrotClone;
 			sourceTree = "<group>";
 		};
-		43DC6E6626985E4B001018B3 /* CarrotCloneTests */ = {
+		43B3A4C726AA634000F516F2 /* CarrotCloneTests */ = {
 			isa = PBXGroup;
 			children = (
-				43DC6E6726985E4B001018B3 /* CarrotCloneTests.swift */,
-				43DC6E6926985E4B001018B3 /* Info.plist */,
+				43B3A4C826AA634000F516F2 /* CarrotCloneTests.swift */,
+				43B3A4CA26AA634000F516F2 /* Info.plist */,
 			);
 			path = CarrotCloneTests;
 			sourceTree = "<group>";
 		};
-		43DC6E7126985E4B001018B3 /* CarrotCloneUITests */ = {
+		43B3A4D226AA634000F516F2 /* CarrotCloneUITests */ = {
 			isa = PBXGroup;
 			children = (
-				43DC6E7226985E4B001018B3 /* CarrotCloneUITests.swift */,
-				43DC6E7426985E4B001018B3 /* Info.plist */,
+				43B3A4D326AA634000F516F2 /* CarrotCloneUITests.swift */,
+				43B3A4D526AA634000F516F2 /* Info.plist */,
 			);
 			path = CarrotCloneUITests;
 			sourceTree = "<group>";
 		};
-		43DC6E8026985F0F001018B3 /* Source */ = {
+		43B3A4E126AA635B00F516F2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				43DC6E8226985FA1001018B3 /* Components */,
-				43DC6E8326985FE0001018B3 /* Delegate */,
-				43DC6E8526985FF1001018B3 /* Extension */,
-				43DC6E8626985FFA001018B3 /* Model */,
-				43DC6E8726986002001018B3 /* Network */,
-				43DC6E882698600E001018B3 /* Scenes */,
-				43DC6E892698604F001018B3 /* Service */,
-				43DC6E8A26986057001018B3 /* Util */,
+				43B3A4E326AA638E00F516F2 /* Delegate */,
+				43B3A4E426AA639700F516F2 /* Model */,
+				43B3A4E526AA63A400F516F2 /* Network */,
+				43B3A4E826AA63C800F516F2 /* Scenes */,
+				43B3A4E726AA63B400F516F2 /* Service */,
+				43C30B0626AA675900D91739 /* ViewModel */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		43DC6E8126985F28001018B3 /* Resource */ = {
+		43B3A4E226AA637100F516F2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				43DC6E5B26985E4B001018B3 /* LaunchScreen.storyboard */,
-				43DC6E5926985E4B001018B3 /* Assets.xcassets */,
+				43B3A4BA26AA634000F516F2 /* Assets.xcassets */,
+				43B3A4BC26AA634000F516F2 /* LaunchScreen.storyboard */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		43DC6E8226985FA1001018B3 /* Components */ = {
+		43B3A4E326AA638E00F516F2 /* Delegate */ = {
 			isa = PBXGroup;
 			children = (
-				43DC6E8426985FEA001018B3 /* Cell */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		43DC6E8326985FE0001018B3 /* Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				43DC6E5026985E4B001018B3 /* AppDelegate.swift */,
-				43DC6E5226985E4B001018B3 /* SceneDelegate.swift */,
+				43B3A4B126AA634000F516F2 /* AppDelegate.swift */,
+				43B3A4B326AA634000F516F2 /* SceneDelegate.swift */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";
 		};
-		43DC6E8426985FEA001018B3 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		43DC6E8526985FF1001018B3 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		43DC6E8626985FFA001018B3 /* Model */ = {
+		43B3A4E426AA639700F516F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		43DC6E8726986002001018B3 /* Network */ = {
+		43B3A4E526AA63A400F516F2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		43DC6E882698600E001018B3 /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				4300AC4626A7F49600B67B2A /* MainViewController.swift */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		43DC6E892698604F001018B3 /* Service */ = {
+		43B3A4E726AA63B400F516F2 /* Service */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Service;
 			sourceTree = "<group>";
 		};
-		43DC6E8A26986057001018B3 /* Util */ = {
+		43B3A4E826AA63C800F516F2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				43C30AFF26AA65ED00D91739 /* Coordinator */,
+				43B3A4EA26AA63F400F516F2 /* Detail */,
+				43B3A4E926AA63EB00F516F2 /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		43B3A4E926AA63EB00F516F2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				43B3A4B726AA634000F516F2 /* Main.storyboard */,
+				43C30B0426AA668000D91739 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		43B3A4EA26AA63F400F516F2 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				43C30AFD26AA65CE00D91739 /* Detail.storyboard */,
+				43C30B0226AA667700D91739 /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		43C30AFF26AA65ED00D91739 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				43A9F42226AA682700A1F2CB /* DetailCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		43C30B0626AA675900D91739 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Util;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		CBA482B8BC3B5F685EA4AF42 /* Pods */ = {
+		AC04FE98C481133219EAFA69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3FB11C412115EE82FA53D37F /* Pods-CarrotClone.debug.xcconfig */,
-				707F49EE6422C36848BE2F07 /* Pods-CarrotClone.release.xcconfig */,
-				C0FED1DED0F00BEDF63B13CC /* Pods-CarrotClone-CarrotCloneUITests.debug.xcconfig */,
-				E63067F9545FD141D99ACB2B /* Pods-CarrotClone-CarrotCloneUITests.release.xcconfig */,
-				BC32DDD04CA43B0A26131038 /* Pods-CarrotCloneTests.debug.xcconfig */,
-				E2D83435E996B0EDC532DAE4 /* Pods-CarrotCloneTests.release.xcconfig */,
+				45914A2F683ACE63FDE9F79A /* Pods_CarrotClone.framework */,
+				13353F49A9F88C913F15621C /* Pods_CarrotClone_CarrotCloneUITests.framework */,
+				07EFF5A8711119884E941611 /* Pods_CarrotCloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D773356963CAC856A0F0B54D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EF06B9F26FD233D3F7AA6EA /* Pods-CarrotClone.debug.xcconfig */,
+				947C8628019A847486785475 /* Pods-CarrotClone.release.xcconfig */,
+				FC65C24785F6ED0814948C04 /* Pods-CarrotClone-CarrotCloneUITests.debug.xcconfig */,
+				EAACF7B449A1AD18A1DA6C05 /* Pods-CarrotClone-CarrotCloneUITests.release.xcconfig */,
+				CD295761A61E1B4390C00107 /* Pods-CarrotCloneTests.debug.xcconfig */,
+				0C7A772BBCA7AF9CB6D222C7 /* Pods-CarrotCloneTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -259,15 +273,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43DC6E4C26985E4B001018B3 /* CarrotClone */ = {
+		43B3A4AD26AA634000F516F2 /* CarrotClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43DC6E7726985E4B001018B3 /* Build configuration list for PBXNativeTarget "CarrotClone" */;
+			buildConfigurationList = 43B3A4D826AA634000F516F2 /* Build configuration list for PBXNativeTarget "CarrotClone" */;
 			buildPhases = (
-				720A68F0DB0203C1D18366A4 /* [CP] Check Pods Manifest.lock */,
-				43DC6E4926985E4B001018B3 /* Sources */,
-				43DC6E4A26985E4B001018B3 /* Frameworks */,
-				43DC6E4B26985E4B001018B3 /* Resources */,
-				AF0D6B97AAECE51027C52494 /* [CP] Embed Pods Frameworks */,
+				277F275E80FB4DB27572586B /* [CP] Check Pods Manifest.lock */,
+				43B3A4AA26AA634000F516F2 /* Sources */,
+				43B3A4AB26AA634000F516F2 /* Frameworks */,
+				43B3A4AC26AA634000F516F2 /* Resources */,
+				F17B30EED9B121C9F3A55A62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,71 +289,71 @@
 			);
 			name = CarrotClone;
 			productName = CarrotClone;
-			productReference = 43DC6E4D26985E4B001018B3 /* CarrotClone.app */;
+			productReference = 43B3A4AE26AA634000F516F2 /* CarrotClone.app */;
 			productType = "com.apple.product-type.application";
 		};
-		43DC6E6226985E4B001018B3 /* CarrotCloneTests */ = {
+		43B3A4C326AA634000F516F2 /* CarrotCloneTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43DC6E7A26985E4B001018B3 /* Build configuration list for PBXNativeTarget "CarrotCloneTests" */;
+			buildConfigurationList = 43B3A4DB26AA634000F516F2 /* Build configuration list for PBXNativeTarget "CarrotCloneTests" */;
 			buildPhases = (
-				A44AD4AF74E24B0166B24AAD /* [CP] Check Pods Manifest.lock */,
-				43DC6E5F26985E4B001018B3 /* Sources */,
-				43DC6E6026985E4B001018B3 /* Frameworks */,
-				43DC6E6126985E4B001018B3 /* Resources */,
+				16509B880421098C17CF6763 /* [CP] Check Pods Manifest.lock */,
+				43B3A4C026AA634000F516F2 /* Sources */,
+				43B3A4C126AA634000F516F2 /* Frameworks */,
+				43B3A4C226AA634000F516F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				43DC6E6526985E4B001018B3 /* PBXTargetDependency */,
+				43B3A4C626AA634000F516F2 /* PBXTargetDependency */,
 			);
 			name = CarrotCloneTests;
 			productName = CarrotCloneTests;
-			productReference = 43DC6E6326985E4B001018B3 /* CarrotCloneTests.xctest */;
+			productReference = 43B3A4C426AA634000F516F2 /* CarrotCloneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		43DC6E6D26985E4B001018B3 /* CarrotCloneUITests */ = {
+		43B3A4CE26AA634000F516F2 /* CarrotCloneUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43DC6E7D26985E4B001018B3 /* Build configuration list for PBXNativeTarget "CarrotCloneUITests" */;
+			buildConfigurationList = 43B3A4DE26AA634000F516F2 /* Build configuration list for PBXNativeTarget "CarrotCloneUITests" */;
 			buildPhases = (
-				07CAAF657700D9D3EA2D903B /* [CP] Check Pods Manifest.lock */,
-				43DC6E6A26985E4B001018B3 /* Sources */,
-				43DC6E6B26985E4B001018B3 /* Frameworks */,
-				43DC6E6C26985E4B001018B3 /* Resources */,
-				11DFA3D91C74FA17A95EEAC4 /* [CP] Embed Pods Frameworks */,
+				05D9C4BCAC68584D95EA566C /* [CP] Check Pods Manifest.lock */,
+				43B3A4CB26AA634000F516F2 /* Sources */,
+				43B3A4CC26AA634000F516F2 /* Frameworks */,
+				43B3A4CD26AA634000F516F2 /* Resources */,
+				A5AA18CBBCB3E9B90516974D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				43DC6E7026985E4B001018B3 /* PBXTargetDependency */,
+				43B3A4D126AA634000F516F2 /* PBXTargetDependency */,
 			);
 			name = CarrotCloneUITests;
 			productName = CarrotCloneUITests;
-			productReference = 43DC6E6E26985E4B001018B3 /* CarrotCloneUITests.xctest */;
+			productReference = 43B3A4CF26AA634000F516F2 /* CarrotCloneUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		43DC6E4526985E4A001018B3 /* Project object */ = {
+		43B3A4A626AA634000F516F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					43DC6E4C26985E4B001018B3 = {
+					43B3A4AD26AA634000F516F2 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					43DC6E6226985E4B001018B3 = {
+					43B3A4C326AA634000F516F2 = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 43DC6E4C26985E4B001018B3;
+						TestTargetID = 43B3A4AD26AA634000F516F2;
 					};
-					43DC6E6D26985E4B001018B3 = {
+					43B3A4CE26AA634000F516F2 = {
 						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 43DC6E4C26985E4B001018B3;
+						TestTargetID = 43B3A4AD26AA634000F516F2;
 					};
 				};
 			};
-			buildConfigurationList = 43DC6E4826985E4A001018B3 /* Build configuration list for PBXProject "CarrotClone" */;
+			buildConfigurationList = 43B3A4A926AA634000F516F2 /* Build configuration list for PBXProject "CarrotClone" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -347,47 +361,51 @@
 				en,
 				Base,
 			);
-			mainGroup = 43DC6E4426985E4A001018B3;
-			productRefGroup = 43DC6E4E26985E4B001018B3 /* Products */;
+			mainGroup = 43B3A4A526AA634000F516F2;
+			productRefGroup = 43B3A4AF26AA634000F516F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43DC6E4C26985E4B001018B3 /* CarrotClone */,
-				43DC6E6226985E4B001018B3 /* CarrotCloneTests */,
-				43DC6E6D26985E4B001018B3 /* CarrotCloneUITests */,
+				43B3A4AD26AA634000F516F2 /* CarrotClone */,
+				43B3A4C326AA634000F516F2 /* CarrotCloneTests */,
+				43B3A4CE26AA634000F516F2 /* CarrotCloneUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		43DC6E4B26985E4B001018B3 /* Resources */ = {
+		43B3A4AC26AA634000F516F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43DC6E5D26985E4B001018B3 /* LaunchScreen.storyboard in Resources */,
-				43DC6E8D269869F9001018B3 /* GoogleService-Info.plist in Resources */,
-				43DC6E5A26985E4B001018B3 /* Assets.xcassets in Resources */,
+				43B3A4BE26AA634000F516F2 /* LaunchScreen.storyboard in Resources */,
+				43B3A4EC26AA642300F516F2 /* GoogleService-Info.plist in Resources */,
+				43B3A4BB26AA634000F516F2 /* Assets.xcassets in Resources */,
+				43C30AFE26AA65CE00D91739 /* Detail.storyboard in Resources */,
+				43B3A4B926AA634000F516F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43DC6E6126985E4B001018B3 /* Resources */ = {
+		43B3A4C226AA634000F516F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B3A4ED26AA642300F516F2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43DC6E6C26985E4B001018B3 /* Resources */ = {
+		43B3A4CD26AA634000F516F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B3A4EE26AA642300F516F2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07CAAF657700D9D3EA2D903B /* [CP] Check Pods Manifest.lock */ = {
+		05D9C4BCAC68584D95EA566C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,46 +427,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		11DFA3D91C74FA17A95EEAC4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarrotClone-CarrotCloneUITests/Pods-CarrotClone-CarrotCloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CarrotClone-CarrotCloneUITests/Pods-CarrotClone-CarrotCloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarrotClone-CarrotCloneUITests/Pods-CarrotClone-CarrotCloneUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		720A68F0DB0203C1D18366A4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarrotClone-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A44AD4AF74E24B0166B24AAD /* [CP] Check Pods Manifest.lock */ = {
+		16509B880421098C17CF6763 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,7 +449,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AF0D6B97AAECE51027C52494 /* [CP] Embed Pods Frameworks */ = {
+		277F275E80FB4DB27572586B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarrotClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5AA18CBBCB3E9B90516974D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrotClone-CarrotCloneUITests/Pods-CarrotClone-CarrotCloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarrotClone-CarrotCloneUITests/Pods-CarrotClone-CarrotCloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarrotClone-CarrotCloneUITests/Pods-CarrotClone-CarrotCloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F17B30EED9B121C9F3A55A62 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -490,52 +508,62 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		43DC6E4926985E4B001018B3 /* Sources */ = {
+		43B3A4AA26AA634000F516F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4300AC4726A7F49600B67B2A /* MainViewController.swift in Sources */,
-				43DC6E5126985E4B001018B3 /* AppDelegate.swift in Sources */,
-				43DC6E5326985E4B001018B3 /* SceneDelegate.swift in Sources */,
+				43B3A4B226AA634000F516F2 /* AppDelegate.swift in Sources */,
+				43B3A4B426AA634000F516F2 /* SceneDelegate.swift in Sources */,
+				43C30B0326AA667700D91739 /* DetailViewController.swift in Sources */,
+				43A9F42326AA682700A1F2CB /* DetailCoordinator.swift in Sources */,
+				43C30B0526AA668000D91739 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43DC6E5F26985E4B001018B3 /* Sources */ = {
+		43B3A4C026AA634000F516F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43DC6E6826985E4B001018B3 /* CarrotCloneTests.swift in Sources */,
+				43B3A4C926AA634000F516F2 /* CarrotCloneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43DC6E6A26985E4B001018B3 /* Sources */ = {
+		43B3A4CB26AA634000F516F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43DC6E7326985E4B001018B3 /* CarrotCloneUITests.swift in Sources */,
+				43B3A4D426AA634000F516F2 /* CarrotCloneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43DC6E6526985E4B001018B3 /* PBXTargetDependency */ = {
+		43B3A4C626AA634000F516F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43DC6E4C26985E4B001018B3 /* CarrotClone */;
-			targetProxy = 43DC6E6426985E4B001018B3 /* PBXContainerItemProxy */;
+			target = 43B3A4AD26AA634000F516F2 /* CarrotClone */;
+			targetProxy = 43B3A4C526AA634000F516F2 /* PBXContainerItemProxy */;
 		};
-		43DC6E7026985E4B001018B3 /* PBXTargetDependency */ = {
+		43B3A4D126AA634000F516F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 43DC6E4C26985E4B001018B3 /* CarrotClone */;
-			targetProxy = 43DC6E6F26985E4B001018B3 /* PBXContainerItemProxy */;
+			target = 43B3A4AD26AA634000F516F2 /* CarrotClone */;
+			targetProxy = 43B3A4D026AA634000F516F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		43DC6E5B26985E4B001018B3 /* LaunchScreen.storyboard */ = {
+		43B3A4B726AA634000F516F2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43DC6E5C26985E4B001018B3 /* Base */,
+				43B3A4B826AA634000F516F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43B3A4BC26AA634000F516F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43B3A4BD26AA634000F516F2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -543,7 +571,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		43DC6E7526985E4B001018B3 /* Debug */ = {
+		43B3A4D626AA634000F516F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -604,7 +632,7 @@
 			};
 			name = Debug;
 		};
-		43DC6E7626985E4B001018B3 /* Release */ = {
+		43B3A4D726AA634000F516F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -659,16 +687,15 @@
 			};
 			name = Release;
 		};
-		43DC6E7826985E4B001018B3 /* Debug */ = {
+		43B3A4D926AA634000F516F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FB11C412115EE82FA53D37F /* Pods-CarrotClone.debug.xcconfig */;
+			baseConfigurationReference = 3EF06B9F26FD233D3F7AA6EA /* Pods-CarrotClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A58343K98Z;
 				INFOPLIST_FILE = CarrotClone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -680,16 +707,15 @@
 			};
 			name = Debug;
 		};
-		43DC6E7926985E4B001018B3 /* Release */ = {
+		43B3A4DA26AA634000F516F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 707F49EE6422C36848BE2F07 /* Pods-CarrotClone.release.xcconfig */;
+			baseConfigurationReference = 947C8628019A847486785475 /* Pods-CarrotClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A58343K98Z;
 				INFOPLIST_FILE = CarrotClone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -701,9 +727,9 @@
 			};
 			name = Release;
 		};
-		43DC6E7B26985E4B001018B3 /* Debug */ = {
+		43B3A4DC26AA634000F516F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC32DDD04CA43B0A26131038 /* Pods-CarrotCloneTests.debug.xcconfig */;
+			baseConfigurationReference = CD295761A61E1B4390C00107 /* Pods-CarrotCloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -724,9 +750,9 @@
 			};
 			name = Debug;
 		};
-		43DC6E7C26985E4B001018B3 /* Release */ = {
+		43B3A4DD26AA634000F516F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2D83435E996B0EDC532DAE4 /* Pods-CarrotCloneTests.release.xcconfig */;
+			baseConfigurationReference = 0C7A772BBCA7AF9CB6D222C7 /* Pods-CarrotCloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -747,9 +773,9 @@
 			};
 			name = Release;
 		};
-		43DC6E7E26985E4B001018B3 /* Debug */ = {
+		43B3A4DF26AA634000F516F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0FED1DED0F00BEDF63B13CC /* Pods-CarrotClone-CarrotCloneUITests.debug.xcconfig */;
+			baseConfigurationReference = FC65C24785F6ED0814948C04 /* Pods-CarrotClone-CarrotCloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -768,9 +794,9 @@
 			};
 			name = Debug;
 		};
-		43DC6E7F26985E4B001018B3 /* Release */ = {
+		43B3A4E026AA634000F516F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E63067F9545FD141D99ACB2B /* Pods-CarrotClone-CarrotCloneUITests.release.xcconfig */;
+			baseConfigurationReference = EAACF7B449A1AD18A1DA6C05 /* Pods-CarrotClone-CarrotCloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -792,43 +818,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43DC6E4826985E4A001018B3 /* Build configuration list for PBXProject "CarrotClone" */ = {
+		43B3A4A926AA634000F516F2 /* Build configuration list for PBXProject "CarrotClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43DC6E7526985E4B001018B3 /* Debug */,
-				43DC6E7626985E4B001018B3 /* Release */,
+				43B3A4D626AA634000F516F2 /* Debug */,
+				43B3A4D726AA634000F516F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43DC6E7726985E4B001018B3 /* Build configuration list for PBXNativeTarget "CarrotClone" */ = {
+		43B3A4D826AA634000F516F2 /* Build configuration list for PBXNativeTarget "CarrotClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43DC6E7826985E4B001018B3 /* Debug */,
-				43DC6E7926985E4B001018B3 /* Release */,
+				43B3A4D926AA634000F516F2 /* Debug */,
+				43B3A4DA26AA634000F516F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43DC6E7A26985E4B001018B3 /* Build configuration list for PBXNativeTarget "CarrotCloneTests" */ = {
+		43B3A4DB26AA634000F516F2 /* Build configuration list for PBXNativeTarget "CarrotCloneTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43DC6E7B26985E4B001018B3 /* Debug */,
-				43DC6E7C26985E4B001018B3 /* Release */,
+				43B3A4DC26AA634000F516F2 /* Debug */,
+				43B3A4DD26AA634000F516F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43DC6E7D26985E4B001018B3 /* Build configuration list for PBXNativeTarget "CarrotCloneUITests" */ = {
+		43B3A4DE26AA634000F516F2 /* Build configuration list for PBXNativeTarget "CarrotCloneUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43DC6E7E26985E4B001018B3 /* Debug */,
-				43DC6E7F26985E4B001018B3 /* Release */,
+				43B3A4DF26AA634000F516F2 /* Debug */,
+				43B3A4E026AA634000F516F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 43DC6E4526985E4A001018B3 /* Project object */;
+	rootObject = 43B3A4A626AA634000F516F2 /* Project object */;
 }
