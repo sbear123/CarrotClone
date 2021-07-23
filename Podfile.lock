@@ -81,6 +81,11 @@ PODS:
   - nanopb/encode (2.30908.0)
   - Nimble (9.2.0)
   - PromisesObjC (1.2.12)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
   - RxSwift (6.2.0)
   - SwiftMessages (9.0.3):
     - SwiftMessages/App (= 9.0.3)
@@ -90,6 +95,7 @@ PODS:
 DEPENDENCIES:
   - Firebase/Analytics
   - Nimble
+  - RxCocoa
   - RxSwift
   - SwiftMessages
   - Then
@@ -107,6 +113,8 @@ SPEC REPOS:
     - nanopb
     - Nimble
     - PromisesObjC
+    - RxCocoa
+    - RxRelay
     - RxSwift
     - SwiftMessages
     - Then
@@ -123,10 +131,12 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   Nimble: 4f4a345c80b503b3ea13606a4f98405974ee4d0b
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
   RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
   SwiftMessages: 077f19126c24033fe24042237ecc20261adb46e4
   Then: acfe0be7e98221c6204e12f8161459606d5d822d
 
-PODFILE CHECKSUM: 275a041cf46aee6b3ccb8959e1a333b79e74d0b7
+PODFILE CHECKSUM: f345b01e24d92c1e3442bf2c514eca7c4a952938
 
 COCOAPODS: 1.10.1
