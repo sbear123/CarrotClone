@@ -12,6 +12,9 @@ target 'CarrotClone' do
   pod 'Firebase/Analytics'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Alamofire'
 
   target 'CarrotCloneTests' do
     inherit! :search_paths
